@@ -14,7 +14,11 @@ The key to sequential recommendation is to accurately predict the next item base
 
 ## Requirements
 
+python>=3.9.7
 
+cudatoolkit>=11.3.1
+
+pytorch>=1.11.0
 
 
 
