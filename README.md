@@ -24,5 +24,5 @@ pytorch>=1.11.0
 
 ## Quick Start
 
-‘bash run_train.py’
+bash run_train.py
 
