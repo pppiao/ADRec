@@ -22,7 +22,7 @@ pytorch>=1.11.0
 ## Quick Start
 ### **Download Datasets and Model Outputs**  
 1. Download the processed datasets and the model outputs generated during training from the following Google Drive link:  
-   [Processed Datasets and Model Outputs](https://drive.google.com/file/d/1ckwcigDvkQ7lvOJIIpNdwvD-tHt17WIS/view?usp=drive_link)  
+   [Processed Datasets and Model Outputs](https://drive.google.com/drive/folders/14rvjCYZ0EBa8AkKvQ1_9y0CCBbE-em-_?dmr=1&ec=wgc-drive-hero-goto)  
 
 2. After downloading, extract the files and save them into directories with names matching the corresponding compressed file names. The expected directory structure is as follows:  
    - `datasets/`  
