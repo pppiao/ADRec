@@ -37,8 +37,3 @@ pytorch>=1.11.0
 To start the training process, run the following command:  
 ```bash
 bash run_train.sh
-
-### **Validation**
-To validate the model, run the following command:
-```bash
-bash run_test.sh
