@@ -32,15 +32,11 @@ pytorch>=1.11.0
 
    Ensure that the folder names match exactly to avoid errors during execution.
 
-### **Training**
+### **Training and Validation**
 To start the training process, run the following command:  
 ```bash
 bash run_train.sh
 
-
-### **Validation**  
-To validate the model, run the following command:  
-```bash
 bash run_test.sh
 
 
