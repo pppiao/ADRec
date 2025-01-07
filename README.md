@@ -11,9 +11,6 @@ The key to sequential recommendation is to accurately predict the next item base
 ![image](https://github.com/user-attachments/assets/2c94ce44-30b0-4b4b-ae90-b23bd9557fc8)
 
 
-
-
-
 ## Requirements
 
 python>=3.9.7
@@ -22,9 +19,26 @@ cudatoolkit>=11.3.1
 
 pytorch>=1.11.0
 
-
-
 ## Quick Start
+### **Download Datasets and Model Outputs**  
+1. Download the processed datasets and the model outputs generated during training from the following Google Drive link:  
+   [Processed Datasets and Model Outputs](https://drive.google.com/file/d/1ckwcigDvkQ7lvOJIIpNdwvD-tHt17WIS/view?usp=drive_link)  
 
-bash run_train.py
+2. After downloading, extract the files and save them into directories with names matching the corresponding compressed file names. The expected directory structure is as follows:  
+   - `datasets/`  
+   - `embedding_out/`  
+   - `transformer_with_pretrain/`  
+   - `checkpoint_Arts_64_3layer_4e4_feedfoward1024_momentum_queue_10000_bert1/`  
 
+   Ensure that the folder names match exactly to avoid errors during execution.
+
+
+### **Training**
+To start the training process, run the following command:  
+```bash
+bash run_train.sh
+
+### **Validation**
+To validate the model, run the following command:
+```bash
+bash run_test.sh
